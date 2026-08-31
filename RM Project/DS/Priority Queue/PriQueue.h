@@ -1,5 +1,5 @@
 #pragma once
-#include "priNode.h"
+#include "PriNode.h"
 #include<iostream>
 
 //This class impelements the priority queue as a sorted list (Linked List)
