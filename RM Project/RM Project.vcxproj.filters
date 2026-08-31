@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DS">
+      <UniqueIdentifier>{1fb43f1e-92e2-48d8-adac-e1af4a4065d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Derived DS">
+      <UniqueIdentifier>{d1be0d72-bc8b-4ac2-b3b3-a7e02a073f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{fdafffee-b41c-4e6b-880e-8a71e208691f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action">
+      <UniqueIdentifier>{086cc014-968e-4e2c-9254-442c7093e21e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Restaurant">
+      <UniqueIdentifier>{a1f2334d-5586-4e62-a868-9d5ccbd66f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{e3d30b61-255c-4fa4-ad2c-595328ab97a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DS\Stack">
+      <UniqueIdentifier>{b8468a46-a4ad-46c7-8c81-3bfaa3c37d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DS\Queue">
+      <UniqueIdentifier>{f06cadd5-c400-4b36-815c-d7ebefc5f6e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DS\Priority Queue">
+      <UniqueIdentifier>{1f64a053-62b8-4c3b-8872-21b26a96b8dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Ui.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Restaurant\Restaurant.cpp">
+      <Filter>Restaurant</Filter>
+    </ClCompile>
+    <ClCompile Include="Action\RequestAction.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Action\CancelAction.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Action\Action.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Action\CancelAction.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Action\RequestAction.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Derived DS\Cook_Ords.h">
+      <Filter>Derived DS</Filter>
+    </ClInclude>
+    <ClInclude Include="Derived DS\Derived Queue.h">
+      <Filter>Derived DS</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Chef.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Order.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Scooter.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Table.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Restaurant\Restaurant.h">
+      <Filter>Restaurant</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Ui.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\Priority Queue\LinkedQueue.h">
+      <Filter>DS\Priority Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\Priority Queue\Node.h">
+      <Filter>DS\Priority Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\Priority Queue\PriNode.h">
+      <Filter>DS\Priority Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\Priority Queue\PriQueue.h">
+      <Filter>DS\Priority Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\Priority Queue\QueueADT.h">
+      <Filter>DS\Priority Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\Queue\LinkedQueue.h">
+      <Filter>DS\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\Queue\Node.h">
+      <Filter>DS\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\Queue\QueueADT.h">
+      <Filter>DS\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\Stack\ArrayStack.h">
+      <Filter>DS\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\Stack\StackADT.h">
+      <Filter>DS\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="Derived DS\Fit_Table.h">
+      <Filter>Derived DS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

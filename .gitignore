@@ -1,0 +1,17 @@
+# Visual Studio build artifacts
+x64/
+x86/
+Debug/
+Release/
+.vs/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.idb
+*.vcxproj.user
+*.sdf
+*.opensdf
+*.suo

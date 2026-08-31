@@ -1,0 +1,15 @@
+File 1: High Load & Basic Assignment Stress Test
+Description: This file focuses on simulating a heavy workload to evaluate the system's efficiency in assigning chefs to orders under high pressure. It ensures that the basic assignment logic remains stable and responsive when multiple orders arrive simultaneously.
+File 2: Order Cancellation Logic Test
+Description: Specifically designed to test the "Cancel" functionality. It includes various scenarios where orders are canceled at different timestamps to verify that the system correctly releases resources (chefs, tables, or scooters) and updates the waiting list without errors.
+File 3: Sharable Tables Management
+Description: This test case evaluates the "Sharable Tables" feature. It uses large-capacity tables to check if multiple sharable orders can occupy the same table concurrently, and ensures that non-sharable orders correctly reserve the entire table regardless of their size.
+File 4: Scooter Lifecycle & Maintenance Transitions
+Description: Focuses on tracking the full state machine of delivery scooters. It monitors transitions between AVAILABLE, IN_SERVICE, BACK, and IN_MAINTENANCE. It also includes long-distance orders to trigger the breakdown and rescue (Bonus) logic.
+File 5: Priority-Based Assignment Validation
+Description: A specialized test to verify the strict priority queue logic. It creates a bottleneck to force orders into the waiting list, then validates that they are assigned to chefs in the correct order: Overwait orders first, followed by Combo deals, then OVC, and finally standard orders.
+File 6: Randomized Comprehensive Stress Test
+Description: A complex, high-volume file (300 actions) containing a randomized mix of all order types, varying distances, and frequent cancellations. It serves as the ultimate stability test to ensure the system handles edge cases and resource management flawlessly over a long period.
+File 7: Combo Orders Test
+Description: Dedicated to evaluating the handling of "COMBO" orders. It features a high concentration of COMBO orders.
+This test ensures that the system correctly identifies the COMBO strings, and accurately manages complex resource allocation (e.g., assigning multiple chefs simultaneously to a single combo order) without causing starvation for other standard orders.
